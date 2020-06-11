@@ -1,0 +1,36 @@
+img {
+    max-width: 100%;
+}
+
+html{
+}
+
+body {     
+	width: 100%;      
+	height: 100%;     
+	font: 2em Fantasy, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: url("SouthAdelic/southadelic_imgs/southadelic1.jpg") fixed  no-repeat no-repeat center; 
+    background-color: darkgrey;
+	margin: 0 auto;	
+}
+
+#nav {
+    width: 90%;
+    background-color: rgba(25, 265, 275, 0.85);
+    
+}
+#nav button {
+    margin-top: 20%;
+}
+
+#container1 {
+    margin-top: 10px;
+}
+
+.row {
+    background-color: aliceblue;
+    
+}
+.fotorama {
+    margin:2% 15%;   
+}

@@ -1,0 +1,249 @@
+/************************ * MAIN * *************************/
+
+img,
+object {
+    max-width: 100%;
+}
+
+html{
+    background: rgba(176, 199, 129, 1);
+}
+
+body {     
+	width: 100%;      
+	height: 100%;     
+	font: 1em Cursive, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: url("dbnImages/dbn40.jpg") fixed no-repeat no-repeat center; 
+	margin: 0 auto;	
+}
+
+a {
+    padding: 10px;
+}
+
+.navbar{
+    border-radius: 5px;
+}
+
+.about {
+   padding-left: 5%;
+}
+
+#dbn {
+    padding: 0 1% 0 5%;
+    color: aliceblue;
+}
+
+/*header {
+	padding: 5px;
+	margin: 0 auto;
+	color: darkgoldenrod;
+	text-align: center;
+    text-shadow: -1px 5px 1px lightgrey;
+	background-color: rgba(255, 255, 255, 0.55)
+}
+#nav1 {
+	padding:5px;
+	margin: 5px;
+	margin: 0 auto;
+}
+
+#nav1 a{
+    font-size: 2em;
+	color: darkolivegreen;
+	text-decoration: none;
+	text-shadow: none;
+	border-radius: 510px 300px;
+	padding: 5px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+	position: relative;
+    border: 3px groove grey;
+ 	background-color: rgba(255, 255, 255, 0.85);
+}
+
+#nav1 a:hover {
+	color: red;
+	text-decoration: underline;
+}*/
+
+#castro {
+	margin: 0 auto;
+	margin-top: 5%;
+	border: 5px groove green;
+	border-radius: 5px;	 	
+	background-color: rgba(255, 255, 255, 0.82);
+}
+#castro img {
+    padding: 2%;
+}
+#castro2 {
+    height: auto;
+    font-size: 2em;
+	text-align: center;
+	padding: 5px;
+}
+
+#castro2 h1{
+    font-weight: bold;
+    font-size: 2em;
+}
+#castro2 p {
+	text-indent: 10%;
+}
+#castro2 p:first-letter {
+	font-size: 1.5em;
+}
+
+.fotorama {
+    margin:2% 15%;   
+}
+
+/************************** * BEGIN CAROUSEL * ************************/
+
+#portfolio-carousel {
+    margin-top: 1.0%; 
+    border: 5px groove green;
+	border-radius: 5px;	 	
+}
+#portfolio-carousel img {
+    height: 480px;
+
+}
+/* Carousel base class */
+.carousel {
+    margin-bottom: 30px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+    color: black;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 600px;
+	background-color: rgba(255, 255, 255, 0.55);
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+
+/************************ * BEGIN FORM * ****************************/
+
+/* below line is write to use google font online  */
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+div#main{
+width: 830px;
+height: 650px;
+margin: 0px auto; 
+font-family: 'Ubuntu', sans-serif;
+}
+
+div#form_sample{
+text-align:center;
+border: 1px solid #ccc;
+width: 300px;
+padding: 0px 50px 15px;
+margin-top:20px;
+box-shadow: 0 0 15px;
+border-radius: 6px;
+float:left;
+}
+
+#main h1{
+margin-top:40px; 
+}
+
+
+
+
+label{
+float: left;
+font-size: 2em;
+}
+
+input[type="text"]{
+width:100%;
+margin-top:10px;
+height: 35px;
+margin-bottom: 25px;
+padding:10px;
+border:3px solid #2BC1F2;
+}
+
+textarea{
+width:100%;
+border:3px solid #2BC1F2;
+padding:10px;
+margin-bottom: 25px;
+margin-top: 10px;
+height: 100px;
+resize:none;
+}
+
+input[type="submit"]{
+width:50%;
+padding: 10px 45px;
+background-color: #2BC1F2;
+border: none;
+color: white;
+font-size: 18px;
+font-weight: bold;
+cursor: pointer;
+font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* -------------------------------------
+    CSS for sidebar (optional) 
+---------------------------------------- */
+div#fugo{
+float:right;
+}
+
+/************************ * BEGIN MEDIA QUERY * *********************/
+
+@media (min-width: 760px) {
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+};
+
+@media (min-width: 730px) {
+    .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+    #castro {
+        height: 675px;
+    }
+    #castro img {
+    }   
+};
+
+@media (min-width: 670px) {
+    .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+     #castro img {
+       
+    }
+}
+
+
+
